@@ -16,7 +16,7 @@ public class ConnectionProvider {
     private static final String DB_NAME = "AttendanceSystem";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/";
     private static final String DB_USERNAME = "root";
-    private static final String DB_PASSWORD = "Patil@123";
+    private static final String DB_PASSWORD = "yourpassword";
 
     public static Connection getCon(){
         try{
@@ -44,3 +44,4 @@ public class ConnectionProvider {
         System.out.println("Database '" + dbName + "' created successfully.");
     }
 }
+
